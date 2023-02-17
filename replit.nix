@@ -1,5 +1,9 @@
 { pkgs }: {
   deps = [
+    pkgs.nodejs
+    pkgs.sudo
+    pkgs.prow
+    pkgs.python39Packages.clvm-tools
     pkgs.python310Full
     pkgs.replitPackages.prybar-python310
     pkgs.replitPackages.stderred
